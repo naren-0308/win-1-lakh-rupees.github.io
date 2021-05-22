@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.phone{
+    padding-top: 70px;
+    width: auto;
+    height: auto;
+    /*height: 650px ;*/
+    float: right;
+    margin: 10px;
+
+}
+body{
+    background-color: #fafafa !important ;
+    
+}
+.container{
+    margin-top: 20px;
+}
+.right-column
+{
+     background: #fff;
+     border: 1px solid #e6e6e6;
+     width: 350px; 
+     margin: 10px;
+     padding: 40px;
+}
+.instagram-logo{
+    margin: 15px auto;
+}
+.info{
+    font-weight: 600px;
+    line-height: 20px;
+    font-size: 17px;
+    color: #999;
+
+}
+
+/*inner  fb b0utton logo*/
+button img
+{
+    height: 18px!important;
+    padding: 0 8px 2px;
+}
+.or{
+   font-size: 13px !important;
+   color: #999;
+   font-weight: 600; 
+}
+.or::before
+{
+    content: '';
+    background: #efefef;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    top:11px;
+
+}
+.or::after{
+    content: '';
+    background: #efefef;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+
+}
+ /* form group design */
+
+ .form-group
+ {
+     margin-bottom: 6px!important;
+ }
+.form-control{
+    background: #fafafa!important ;
+    border: 1px solid #efefef;
+    font-size: 12px!important ;
+
+}
+::placeholder
+{
+    color: +#999!important ;
+}
+
+.btn{
+    margin: 12px;
+    padding: 2px !important ;
+    font-weight: 600!important;
+}
+
+.btn-primary{
+    background-color: #3897f0!important;
+    border: 1px solid #3897f0!important;
+}
+
+.terms{
+    line-height:  18px;
+    font-size: 14px;
+    color: #999;
+    margin: 5px 20px;
+
+}
+
+.right-column-login{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+}
+.right-column-login a:hover
+{
+    text-decoration: none;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
